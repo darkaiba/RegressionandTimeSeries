@@ -1,18 +1,20 @@
-Séries Temporais
-=================
+Predictive Analysis with Time Series
+==================
 
-1. Gerar a Base de Dados Fictícia de Séries Temporais
-Vamos criar uma base de dados sintética com uma coluna de data e uma coluna de valor. Os valores serão gerados a partir de uma função que combina tendências sazonais e aleatórias.
+1. Generate the Fictitious Time Series Database
+We will create a synthetic database with a date column and a value column. The values ​​will be generated from a function that combines seasonal and random trends.
 
-2. Exploração e Análise Inicial dos Dados
-Vamos visualizar os dados gerados e realizar uma análise básica para entender o comportamento da série temporal.
-Exibindo o gráfico da série temporal: O gráfico gerado mostrará como o valor da série evolui ao longo do tempo, com uma tendência geral de aumento, variações sazonais e ruído aleatório.
+2. Initial Data Exploration and Analysis
+We will visualize the generated data and perform a basic analysis to understand the behavior of the time series.
 
-3. Preparação do Modelo Preditivo
-Para a análise preditiva, usaremos um modelo simples como o ARIMA (AutoRegressive Integrated Moving Average), que é amplamente utilizado em séries temporais. Esse modelo é apropriado para prever valores futuros com base em dados passados.
+Displaying the time series graph: The generated graph will show how the value of the series evolves over time, with a general upward trend, seasonal variations and random noise.
 
-4. Avaliação do Modelo
-O modelo ARIMA foi ajustado aos dados de treinamento e usou as observações passadas para prever os valores futuros no conjunto de teste. O erro quadrático médio (MSE) é calculado para avaliar a precisão da previsão.
+3. Preparing the Predictive Model
+For predictive analysis, we will use a simple model such as ARIMA (AutoRegressive Integrated Moving Average), which is widely used in time series. This model is suitable for predicting future values ​​based on past data.
 
-Se o MSE for baixo, significa que as previsões do modelo estão próximas dos valores reais.
-O gráfico resultante mostrará a série temporal original, os valores reais de teste e as previsões do modelo, permitindo uma visualização clara do desempenho do modelo.
+4. Model Evaluation
+The ARIMA model was fitted to the training data and used past observations to predict future values ​​in the test set. The mean squared error (MSE) is calculated to assess the accuracy of the prediction.
+
+If the MSE is low, it means that the model predictions are close to the actual values.
+
+The resulting graph will show the original time series, the actual test values, and the model predictions, allowing a clear visualization of the model performance.
