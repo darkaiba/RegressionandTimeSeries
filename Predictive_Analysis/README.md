@@ -6,8 +6,7 @@ We will create a synthetic database with a date column and a value column. The v
 
 2. Initial Data Exploration and Analysis
 We will visualize the generated data and perform a basic analysis to understand the behavior of the time series.
-
-Displaying the time series graph: The generated graph will show how the value of the series evolves over time, with a general upward trend, seasonal variations and random noise.
+The generated graph will show how the value of the series evolves over time, with a general upward trend, seasonal variations and random noise.
 
 3. Preparing the Predictive Model
 For predictive analysis, we will use a simple model such as ARIMA (AutoRegressive Integrated Moving Average), which is widely used in time series. This model is suitable for predicting future values ​​based on past data.
